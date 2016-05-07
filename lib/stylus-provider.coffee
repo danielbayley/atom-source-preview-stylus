@@ -1,4 +1,4 @@
-[ stylus, config, preview ] = []
+[ stylus, config, code ] = []
 
 module.exports =
 class StylusProvider
@@ -22,11 +22,11 @@ class StylusProvider
 			#sourceRoot:
 			#basePath:
 
-		stylus = stylus code, options
+		preview = stylus code, options
 			.set 'sourcemap', options
 
-		stylus.render (err, css) -> preview = css
+		preview.render (err, css) -> code = css
 			#throw err if err
 
-		code: preview
-		sourceMap: stylus.sourcemap ? null
+		code: code
+		sourceMap: preview.sourcemap ? null
