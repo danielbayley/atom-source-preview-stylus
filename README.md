@@ -9,7 +9,7 @@ Requirements
 
 Install
 -------
-`apm install source-preview-stylus` or search "stylus" under packages within Atom.
+`apm install source-preview-stylus` or search “stylus” under packages within Atom.
 
 License
 -------
