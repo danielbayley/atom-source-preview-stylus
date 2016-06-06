@@ -8,7 +8,7 @@
     "source",
     "css"
   ],
-  "homepage": "http://atom.io/packages/source-preview-stylus",
+  "homepage": "https://atom.io/packages/source-preview-stylus",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielbayley/atom-source-preview-stylus.git"
@@ -16,9 +16,7 @@
   "bugs": {
     "url": "https://github.com/danielbayley/atom-source-preview-stylus/issues"
   },
-  "author": {
-    "name": "danielbayley <danielbayley@me.com>"
-  },
+  "author": "Daniel Bayley <daniel.bayley@me.com> (https://github.com/danielbayley)",
   "private": true,
   "license": "MIT",
   "engines": {
