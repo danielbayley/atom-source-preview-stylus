@@ -25,9 +25,12 @@
   "engines": {
     "atom": "*"
   },
+  "activationHooks": [
+    "stylus:grammar-used"
+  ],
   "activationCommands": [
     {
-      "atom-workspace": "source-preview:toggle"
+      "atom-text-editor:not(.mini)": "source-preview:toggle"
     }
   ],
   "providedServices": {
