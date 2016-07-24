@@ -22,6 +22,9 @@
   "dependencies": {
     "stylus": "^0.54.5"
   },
+  "scripts": {
+    "preinstall": "apm install source-preview stylus"
+  },
   "engines": {
     "atom": "*"
   },
