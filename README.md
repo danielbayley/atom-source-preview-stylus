@@ -3,12 +3,7 @@
 
 Preview [Stylus] output in [Atom]
 =================================
-Atom [source-preview] provider for [Stylus].
-
-Requirements
-------------
-* [source-preview]
-* [stylus][language-stylus]
+Atom _[source-preview]_ provider for [Stylus].
 
 Install
 -------
