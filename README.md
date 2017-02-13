@@ -23,4 +23,3 @@ License
 
 [source-preview]:   https://atom.io/packages/source-preview
 [stylus]:           http://stylus-lang.com
-[language-stylus]:  https://atom.io/packages/stylus
