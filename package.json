@@ -31,11 +31,9 @@
   "activationHooks": [
     "stylus:grammar-used"
   ],
-  "activationCommands": [
-    {
-      "atom-text-editor:not(.mini)": "source-preview:toggle"
-    }
-  ],
+  "activationCommands": {
+    "atom-text-editor:not(.mini)": "source-preview:toggle"
+  },
   "providedServices": {
     "preview.provider": {
       "versions": {
